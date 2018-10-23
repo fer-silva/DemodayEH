@@ -1,4 +1,7 @@
+let links = document.querySelector('.divCad');
 
+let click = document.querySelector('.postit1');
+let visible = document.querySelector('.opaca');
 
 let xis1 = document.querySelector('.a1');
 let xis2 = document.querySelector('.a2');
@@ -28,4 +31,13 @@ if(location.pathname == '/voce.html'){
     xis4.style.backgroundColor = 'white';
 }else{
     xis4.style.backgroundColor = '';
+}
+
+xis2.onclick = function(){
+    links.classList.toggle('divCad2');
+}
+
+click.onclick = function(){
+    click.classList.toggle('postit12');
+    visible.classList.toggle('op');
 }
