@@ -1,10 +1,10 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(img/fundo.jpg);
-    background: cover;
-    
-
+    /* background: url(img/fundo.jpg); */
+    background: rgba(0, 0, 0, 0.8);
+    background-size: cover;
+    font-family: 'BenchNine', sans-serif;
 }
 .opaca{
     position: absolute;
@@ -23,8 +23,8 @@ body{
     margin-top: 2vh;
     width: 20vw;
     height: 20vw;
-    background-color: palevioletred;
-    font-size: 18px;
+    background-color: #FF5291;
+    font-size: 20px;
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -44,7 +44,7 @@ body{
     width: 20vw;
     height: 35vw;
     background-color: palevioletred;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -59,7 +59,7 @@ body{
 header{
     height: 70px;
     width: 100%;
-    background-color: rgb(76, 76, 189);
+    background-color: #000;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -71,8 +71,8 @@ header{
 header>a{
     margin-left: 3vw;
     text-decoration: none;
-    font-size: 20pt;
-    color: black;
+    font-size: 25px;
+    color: lightgray;
     font-family: sans-serif;
     font-weight: bold;
     z-index: 2;
@@ -87,15 +87,19 @@ nav{
     margin-right: 3vw;
     position: relative;
     z-index: 2;
-    background-color: rgb(76, 76, 189);
+    background-color: #000;
+}
+
+a{
+    text-decoration: none; 
 }
 
 nav>a{
     text-decoration: none;
-    color: black;
+    color: lightgray;
     font-weight: 600;
     font-family: sans-serif;
-    font-size: 16pt;
+    font-size: 15pt;
     height: 70px;
     width: calc(100% / 6);
     border-radius: 5px;
@@ -105,7 +109,7 @@ nav>a{
     box-sizing: border-box;
     transition: 1s;
     z-index: 2;
-    background-color: rgb(76, 76, 189);
+    background-color: #000;
 }
 
 .d1:hover{
@@ -137,8 +141,8 @@ section{
     margin-top: 2vh;
     width: 20vw;
     height: 20vw;
-    background-color: palevioletred;
-    font-size: 18px;
+    background-color: #B14CE8;
+    font-size: 20px;
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -153,11 +157,11 @@ section{
 
 .oloco1{
     border-radius: 5px;
-    margin-top: 2vh;
+    margin-top: 7Vh;
     width: 20vw;
     height: 20vw;
-    background-color: yellow;
-    font-size: 18px;
+    background-color: #32A6E8;
+    font-size: 20px;
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -168,13 +172,35 @@ section{
     
 }
 
+.jogar{
+    border-radius: 50%;
+    margin-top: 7vh;
+    margin-left: 10px;
+    width: 20vw;
+    height: 20vw;
+    background-color: #41FFD8;
+    font-size: 87px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 0 5px;
+    outline: none;
+}
+
+.jogar p{
+    font-size: 89px;
+    font-family: 'BenchNine', sans-serif;
+}
+
 .oloco:nth-child(1){
     margin-top: 6vh;
-    background-color: lightseagreen;
+    background-color: #B9D2FF;
 }
 
 .oloco:nth-child(2){
-    background-color: salmon;
+    background-color: #5F67FF;
     margin-top: 13vh;
 }
 
@@ -224,7 +250,6 @@ input{
     margin-top: 8vh;
     margin-bottom: 2vh;
     margin-left: 5vw;
-    background-image: url(steven.jpg);
     background-position: center;
     background-size: cover;
 
@@ -233,7 +258,7 @@ input{
 .divCad{
     height: 70px;
     width: 17.2%;
-    background-color: rgb(76, 76, 189);
+    background-color:  #41FFD8;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
