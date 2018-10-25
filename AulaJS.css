@@ -34,7 +34,9 @@ body{
     border-radius: 5px;
     flex-direction: column;
     transition: 1s;
+    overflow: hidden;
 }
+
 
 .postit12{
     position: relative;
