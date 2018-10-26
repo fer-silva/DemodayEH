@@ -1,9 +1,7 @@
 body{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    /* background: url(img/fundo.jpg); */
-    background: rgba(0, 0, 0, 0.8);
-    background-size: cover;
+    /* background-color: rgba(255, 255, 255, 0.705); */
     font-family: 'BenchNine', sans-serif;
 }
 .opaca{
@@ -21,9 +19,9 @@ body{
 
 .postit1{
     margin-top: 2vh;
-    width: 20vw;
-    height: 20vw;
-    background-color: #FF5291;
+    width: 25vw;
+    height: 25vw;
+    background-color:yellowgreen;
     font-size: 20px;
     font-weight: bold;
     display: flex;
@@ -41,9 +39,9 @@ body{
 .postit12{
     position: relative;
     margin-top: 8vh;
-    width: 20vw;
-    height: 35vw;
-    background-color: palevioletred;
+    width: 25vw;
+    height: 40vw;
+    background-color:white;
     font-size: 20px;
     font-weight: bold;
     display: flex;
@@ -59,7 +57,7 @@ body{
 header{
     height: 70px;
     width: 100%;
-    background-color: #000;
+    background-color:#43E8D5;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -72,7 +70,7 @@ header>a{
     margin-left: 3vw;
     text-decoration: none;
     font-size: 25px;
-    color: lightgray;
+    color: #000;
     font-family: sans-serif;
     font-weight: bold;
     z-index: 2;
@@ -87,19 +85,20 @@ nav{
     margin-right: 3vw;
     position: relative;
     z-index: 2;
-    background-color: #000;
+    background-color: #a5d0f0;
 }
 
 a{
     text-decoration: none; 
+    color: #000;
 }
 
 nav>a{
     text-decoration: none;
-    color: lightgray;
+    color: #000;
     font-weight: 600;
     font-family: sans-serif;
-    font-size: 15pt;
+    font-size: 14pt;
     height: 70px;
     width: calc(100% / 6);
     border-radius: 5px;
@@ -109,15 +108,28 @@ nav>a{
     box-sizing: border-box;
     transition: 1s;
     z-index: 2;
-    background-color: #000;
+    background-color:#43E8D5
 }
 
 .d1:hover{
     background-color: rgba(255, 255, 255, 0.4);
     letter-spacing: 2px;
 }
-
+.parallax {
+    background-image: url("img/fundo2.jpg");
+background-attachment: fixed;
+background-position: center top;
+background-size: cover;
+background-repeat: no-repeat;
+height: 95vh;
+position: relative;
+top:0;
+z-index: 2;
+overflow: hidden;
+}
 section{
+    background:#a8cfec;
+    background-size: cover;
     height: calc(100vh - 70px);
     width: 100%;
     /* background-color: gray; */
@@ -139,9 +151,9 @@ section{
 }
 .oloco{
     margin-top: 2vh;
-    width: 20vw;
-    height: 20vw;
-    background-color: #B14CE8;
+    width: 25vw;
+    height: 25vw;
+    background-color:white;
     font-size: 20px;
     font-weight: bold;
     display: flex;
@@ -157,10 +169,10 @@ section{
 
 .oloco1{
     border-radius: 5px;
-    margin-top: 7Vh;
-    width: 20vw;
-    height: 20vw;
-    background-color: #32A6E8;
+    margin-top: 25Vh;
+    width: 25vw;
+    height: 25vw;
+    background-color:white;
     font-size: 20px;
     font-weight: bold;
     display: flex;
@@ -174,11 +186,11 @@ section{
 
 .jogar{
     border-radius: 50%;
-    margin-top: 7vh;
+    margin-top: 25vh;
     margin-left: 10px;
-    width: 20vw;
-    height: 20vw;
-    background-color: #41FFD8;
+    width: 25vw;
+    height: 25vw;
+    background-color: white;
     font-size: 87px;
     font-weight: bold;
     display: flex;
@@ -196,11 +208,11 @@ section{
 
 .oloco:nth-child(1){
     margin-top: 6vh;
-    background-color: #B9D2FF;
+    background-color:white;
 }
 
 .oloco:nth-child(2){
-    background-color: #5F67FF;
+    background-color:white;
     margin-top: 13vh;
 }
 
@@ -279,7 +291,7 @@ input{
     text-align: center;
     text-decoration: none;
     font-weight: bold;
-    color: black;
+    background-color: white;
     border-radius: 5px;
     height: calc(92% / 3);
     width: 95%;
@@ -298,4 +310,15 @@ input{
     top: 70px;
     height: 175px;
     opacity: 1;
+}
+
+footer{
+    display: flex;
+    margin: 0 auto;
+    background-color:rgba(0, 0, 0, 0.582);
+    height: 100vh;
+}
+footer img{
+    height:50px ;
+    width: 50px;
 }
